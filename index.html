@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="tour-dates.js"></script>
+  <script src="js/format-google-calendar.min.js"></script>
 
   <title>Washer</title>
 </head>
@@ -26,8 +26,8 @@
   <section id="tour" class="container">
     <h2>tour dates</h2>
     <ul>
-      <h3>Upcoming</h3>
-      <h3>Past</h3>
+      <ul id="events-upcoming"></ul>
+      <ul id="events-past"></ul>
     </ul>
   </section>
   <section id="music" class="container">
@@ -61,6 +61,26 @@
 
 
   </footer>
+  <script>
+    formatGoogleCalendar.init({
+      calendarUrl: "https://www.googleapis.com/calendar/v3/calendars/okwasher@gmail.com/events?key=AIzaSyCux9JsIBgeAP5I7cYN4Mh6OuRcz79F7Dc",
+      past: true,
+      upcoming: true,
+      sameDayTimes: false,
+      dayNames: true,
+      pastTopN: -1,
+      upcomingTopN: -1,
+      itemsTagName: 'li',
+      upcomingSelector: '#events-upcoming',
+      pastSelector: '#events-past',
+      recurringEvents: true,
+      upcomingHeading: '<h4>Upcoming</h4>',
+      pastHeading: '<h4>Past</h4>',
+      format: ['*date*', ': ', '*summary*', ' — ', '*description*'],
+      timeMin: '2013-06-03T10:00:00-07:00',
+      timeMax: '2020-06-03T10:00:00-07:00'
+    });
+  </script>
 </body>
 
 </html>
