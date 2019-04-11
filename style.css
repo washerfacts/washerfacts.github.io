@@ -9,7 +9,11 @@ footer > p {
   font-size: .75em;
   margin-top: .5em;
 }
+footer {
+  text-align: center;
+}
 
 #links {
   display: inline-inline-grid;
+  text-align: center;
 }
