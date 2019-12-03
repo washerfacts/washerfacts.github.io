@@ -4,63 +4,129 @@
 <head>
   <meta charset="utf-8">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Rubik|Walter+Turncoat&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+
+
   <script src="js/format-google-calendar.min.js"></script>
+
 
   <title>Washer</title>
 </head>
 
 <body>
-  <section id="main" class="container">
-    <img src="img/apt-color.jpg" class="img-fluid rounded" alt="band members">
-    <h1>Washer is a band.</h1>
-  </section>
-  <section id="bio" class="container bio">
-    <h2>bio</h2>
-    <ul>
-      <p class="bio content">definitely a band and not a conspiracy of bees</p>
-    </ul>
-  </section>
-  <section id="tour" class="container">
-    <h2>tour dates</h2>
-    <ul>
-      <ul id="events-upcoming"></ul>
-      <ul id="events-past"></ul>
-    </ul>
-  </section>
-  <section id="music" class="container">
-    <h2>music (bandcamp embeds)</h2>
-  </section>
-  <section id="videos" class="container">
-    <h2>videos (youtube embeds)</h2>
-  </section>
-  <section id="subscribe" class="container">
-    <h2>subscribe to mailing list</h2>
-  </section>
-  <section id="pics" class="container">
-    <h2>press pics</h2>
-  </section>
-  <section id="contact" class="container">
-    <h4>For booking <a href="mailto:okwasher@gmail.com">email us here.</a></h4>
-  </section>
-  <section id="links" class="container">
-    <!-- <h4>links</h4> -->
-    <!-- Social media and contact links. Add or remove any networks. -->
-    <div class="links">
-      <a href="https://twitter.com/washerfacts" target="_blank">Twitter</a> |
-      <a href="https://instagram.com/washerfacts" target="_blank">Instagram</a> |
-      <a href="https://okwasher.bandcamp.com" target="_blank">Bandcamp</a> |
-      <a href="https://open.spotify.com/artist/1aEtQvTQHlRhK1tslrdxUy" target="_blank">Spotify</a> |
-      <a href="https://explodinginsoundrecords.com" target="_blank">Exploding In Sound Records</a>
+  <section id="main">
+    <nav id="navbar">
+      <!-- <h1><a href="#main">Washer</a></h1> -->
+      <ul id="navlinks">
+        <li id="bandname"><a href="#main">Washer</a></li>
+        <li><a href="#music">music</a></li>
+        <li><a href="#videos">videos</a></li>
+        <li><a href="#bio">bio</a></li>
+        <li><a href="#shows">shows</a></li>
+      </ul>
+    </nav>
+    <div id="splash">
+      <img src="img/badge.png" alt="washer">
+      <section id="links" class="container">
+        <!-- <h4>links</h4> -->
+        <!-- Social media and contact links. Add or remove any networks. -->
+
+        <div class="social-media">
+          <a href="https://twitter.com/washerfacts" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i><span class="sr-only">Twitter</span></a>
+          <a href="https://instagram.com/washerfacts" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram></span></a>
+          <a href="https://okwasher.bandcamp.com" target="_blank"><i class="fab fa-bandcamp" aria-hidden="true"></i><span class="sr-only">Bandcamp</span></a>
+          <a href="https://open.spotify.com/artist/1aEtQvTQHlRhK1tslrdxUy" target="_blank"><i class="fab fa-spotify" aria-hidden="true"></i><span class="sr-only">Spotify</span></a>
+        </div>
     </div>
+
   </section>
-  <footer class="container">
-    <p>Site by Quigley | Copyright 2019 by Washer</p>
+  </section>
+  <section id="transition" class="container"></section>
+  <div id="gradient">
+  <div id="content">
+    <section id="music" class="container">
+      <h2>music</h2>
+      <div>
+        <div class="album">
+          <a href="https://okwasher.bandcamp.com/album/bethlehem-steel-washer-split" target="_blank">
+            <img src="img/2018-Washer-BSteelSplit/2018-Washer-BSteelSplit-web.jpg" alt="cover art cover art bethlehem steel split with washer">
+            <h3>Bethlehem Steel / Washer</h3>
+          </a>
+        </div>
+        <div class="album">
+          <a href="https://okwasher.bandcamp.com/album/all-aboard" target="_blank">
+            <img src="img/2017-Washer-AllAboard/2017-Washer-AllAboard-web.jpg" alt="cover art all aboard by washer">
+            <h3>All Aboard</h3>
+          </a>
+        </div>
+        <div class="album">
+          <a href="https://okwasher.bandcamp.com/album/here-comes-washer" target="_blank">
+            <img src="img/2016-Washer-HereComesWasher/2016-Washer-HereComesWasher-web.jpg" alt="cover art here comes washer by washer">
+            <h3>Here Comes Washer</h3>
+          </a>
+
+        </div>
+        <div class="album">
+          <a href="https://okwasher.bandcamp.com/album/flagland-washer-split-7" target="_blank">
+            <img src="img/2015-Washer-FlaglandSplit/2015-Washer-FlaglandSplit-web.jpg" alt="cover art flagland split with washer">
+            <h3>Flagland / Washer</h3>
+          </a>
+        </div>
+        <div class="album">
+          <a href="https://okwasher.bandcamp.com/album/big-ups-washer-split-7" target="_blank">
+            <img src="img/2014-Washer-BigUpsSplit/2014-Washer-BigUpsSplit-web.jpg" alt="cover art big ups split with washer">
+            <h3>Big Ups / Washer</h3>
+          </a>
+        </div>
+        <div class="album">
+          <a href="https://okwasher.bandcamp.com/album/bighead-ep" target="_blank">
+            <img src="img/2014-Washer-Bighead/2014-Washer-Bighead-web.jpg" alt="cover art bighead by washer">
+            <h3>Bighead</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="videos" class="container">
+      <h2>videos</h2>
+      <div>
+        <iframe width="700" height="394" src="https://www.youtube.com/embed/Bw-Y2-ESJ9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="700" height="394" src="https://www.youtube.com/embed/BcN5zFMda80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section id="bio" class="container">
+      <figure>
+        <img src="img/20190517-TheFootlight-16.jpg" alt="washer performing">
+        <figcaption>Photo by Michelle LoBianco</figcaption>
+      </figure>
+      <div>
+        <h2>bio</h2>
+        <p class="bio content">Brooklyn based duo Washer is comprised of Mike Quigley (guitar/bass/vocals) and Kieran McShane (drums). Since forming in the late months of 2013, the duo have become a staple of the local DIY scene, another hard
+          working
+          band playing countless shows throughout the East Coast. Washer have garnered a strong reputation in that time thanks to the band’s scrappy energy and infectious indie leaning garage punk anthems. Impossibly catchy and deceptively complex,
+          Washer’s songwriting stays with you, burrowing deep into the recesses of your mind as the band aim to “do a lot with a little”. Punk rock minimalism at its finest.</p>
+        <h4>booking, moral quandaries, complaints: okwasher @ gmail.com</h4>
+      </div>
+    </section>
+
+    <section id="shows" class="container">
+      <h2>shows</h2>
+      <ul>
+        <ul id="events-upcoming"></ul>
+        <ul id="events-past"></ul>
+      </ul>
+    </section>
+
+    <footer class="container">
+      <p>Site by Quigley | Copyright 2019 by Washer</p>
 
 
-  </footer>
+    </footer>
+  </div>
+</div>
   <script>
     formatGoogleCalendar.init({
       calendarUrl: "https://www.googleapis.com/calendar/v3/calendars/okwasher@gmail.com/events?key=AIzaSyCux9JsIBgeAP5I7cYN4Mh6OuRcz79F7Dc",
