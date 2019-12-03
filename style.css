@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  background: url(img/luna.jpg) no-repeat fixed;
-  background-size: cover;
+  /* background: url(img/luna.jpg) no-repeat fixed;
+  background-size: cover; */
   font-family: Rubik, sans-serif;
   width: 100vw;
   margin-top: 0;
@@ -54,6 +54,7 @@ body {
   padding-bottom: 0;
   font-family: 'Walter Turncoat', sans-serif;
   font-size: 1.5rem;
+  background-color: white;
 }
 
 #navlinks {
