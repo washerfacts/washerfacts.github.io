@@ -171,6 +171,23 @@ body {
   padding-top: 100px;
 }
 
+#shows h3 {
+  padding-left: 25%;
+}
+
+#shows tr:first-of-type {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+#shows td {
+  text-align: center;
+}
+
+#shows td:nth-of-type(6) {
+  text-align: left;
+}
+
 #content {
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 01.0));
   height: 100%;

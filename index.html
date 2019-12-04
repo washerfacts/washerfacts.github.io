@@ -11,6 +11,9 @@
   <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
     integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous">
   </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+  <script src="js/shows.js"></script>
 
   <title>Washer</title>
 </head>
@@ -105,7 +108,7 @@
             and deceptively complex,
             Washer’s songwriting stays with you, burrowing deep into the recesses of your mind as the band aim to “do a
             lot with a little”. Punk rock minimalism at its finest.</p>
-          <h4>booking, moral quandaries, complaints: okwasher @ gmail.com</h4>
+          <h4>booking, moral quandaries, complaints:<br /> okwasher @ gmail.com</h4>
           <!-- Social media and contact links. Add or remove any networks. -->
           <section id="links" class="container">
             <!-- <h4>links</h4> -->
@@ -125,10 +128,12 @@
 
       <section id="shows" class="container">
         <h2>shows</h2>
-        <ul>
-          <ul id="events-upcoming"></ul>
-          <ul id="events-past"></ul>
-        </ul>
+        <section id="shows-upcoming">
+          <h3>Upcoming Dates</h3>
+        </section>
+        <section id="shows-past">
+          <h3>Archive</h3>
+        </section>
       </section>
 
       <footer class="container">
