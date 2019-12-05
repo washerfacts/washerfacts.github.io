@@ -168,6 +168,10 @@ body {
   padding-top: 100px;
 }
 
+#shows div {
+  justify-items: center;
+}
+
 #shows h3 {
   padding-left: 25%;
 }
