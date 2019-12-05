@@ -75,7 +75,8 @@ body {
 #bio {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  /* height: 100vh; */
+  height: 500px;
   padding-top: 200px;
 }
 
