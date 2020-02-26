@@ -50,12 +50,12 @@ nav {
 }
 
 #info img {
-    width: 648px;
-    height: 432px;
+    width: 700px;
+    height: auto;
 }
 
 figcaption {
-    font-size: 0.5em;
+    font-size: 0.4em;
     text-align: left;
 }
 
@@ -63,7 +63,7 @@ figcaption {
     display: flex;
     flex-direction: column;
     width: 648px;
-    font-size: 0.5em;
+    font-size: 0.6em;
 }
 
 #info .social-media {
@@ -129,7 +129,6 @@ figcaption {
 
 #videos iframe {
     margin: 20px 30px 30px 30px;
-    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.20); */
 }
 
 #shows {
