@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: monospace;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 nav {
@@ -29,34 +29,40 @@ nav {
     margin-left: 1em;
 }
 
+#content {
+    position: relative;
+    left: 200px;
+}
+
 .container {
-    padding-top: 200px;
-    height: 100vh;
+    /* height: 100vh; */
+    width: 800px;
+    background-color: khaki;
+    padding-bottom: 25px;
+    margin-top: 50px;
 }
 
 #info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 
 #info img {
     width: 648px;
     height: 432px;
-    padding-top: 25;
 }
 
 figcaption {
     font-size: 0.5em;
-    text-align: right;
+    text-align: left;
 }
 
 #info>div {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* padding-top: 20px; */
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 648px;
+    font-size: 0.5em;
 }
 
 #info .social-media {
@@ -75,4 +81,92 @@ figcaption {
 
 .social-media>a:first-of-type {
     padding-left: 0;
+}
+
+#music {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#music>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.album a {
+    color: #ff7575;
+    text-decoration: none;
+}
+
+.album a:hover {
+    color: #8ed4ff;
+}
+
+.album iframe {
+    border: 0;
+    width: 315px;
+    height: 435px;
+}
+
+#videos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#videos iframe {
+    margin: 20px 30px 30px 30px;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.20); */
+}
+
+#shows {
+    font-size: 0.5em;
+}
+
+#shows div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#shows tr:first-of-type {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#shows td {
+    text-align: center;
+    padding: 2px;
+}
+
+#shows td:nth-of-type(6) {
+    text-align: left;
+    max-width: 300px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    border: 1px solid black;
+    width: 275px;
+    font-size: .4em;
+    margin-top: 1em;
 }
