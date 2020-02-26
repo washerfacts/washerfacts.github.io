@@ -153,12 +153,12 @@ figcaption {
 }
 
 #shows td:nth-of-type(5) {
-    max-width: 200px;
+    width: 200px;
 }
 
 #shows td:nth-of-type(6) {
     text-align: left;
-    max-width: 300px;
+    width: 300px;
 }
 
 #shows tr:nth-child(even) {
