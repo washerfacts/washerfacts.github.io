@@ -12,7 +12,7 @@ function arrayToTable(tableData) {
 
 $.ajax({
     type: "GET",
-    url: "no-links.csv",
+    url: "archive.csv",
     success: function (data) {
         $('#shows-past').append(arrayToTable(Papa.parse(data).data));
         // console.log(JSON.parse(arrayToTable(Papa.parse(data).data)));
