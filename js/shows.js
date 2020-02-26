@@ -18,3 +18,12 @@ $.ajax({
         // console.log(JSON.parse(arrayToTable(Papa.parse(data).data)));
     }
 });
+
+$.ajax({
+    type: "GET",
+    url: "upcoming.csv",
+    success: function (data) {
+        $('#shows-upcoming').append(arrayToTable(Papa.parse(data).data));
+        // console.log(JSON.parse(arrayToTable(Papa.parse(data).data)));
+    }
+});
