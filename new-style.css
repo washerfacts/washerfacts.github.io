@@ -187,6 +187,7 @@ footer p {
         left: 0;
         font-size: 1.5em;
         background-color: white;
+        height: 120px;
     }
 
     #navlinks {
@@ -204,15 +205,24 @@ footer p {
 
     #content {
         left: initial;
+        display: absolute;
+        top: 60px;
     }
 
     .container {
         width: 98vw;
+        margin-top: 75px;
+
     }
 
-    .container:first-of-type {
-        margin-top: 150px;
-        padding-top: 100px;
+    .anchor {
+        position: relative;
+    }
+
+    .anchor a {
+        position: absolute;
+        left: 0px;
+        top: -60px;
     }
 
     #info {
