@@ -252,8 +252,8 @@ footer p {
 
     .album iframe {
         border: 0;
-        width: 50vw;
-        height: 30vh;
+        width: 525px;
+        height: 705px;
     }
 
     .album:last-of-type {
