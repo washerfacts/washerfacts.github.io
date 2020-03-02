@@ -1,5 +1,16 @@
-Date,Day,City,State,Venue,With
-3/11/2020,Wed,Philadelphia,PA,Ortlieb's,"Bethlehem Steel, Grocer, Screamcloud"
-3/12/2020,Thu,Richmond,VA,Crystal Palace,"Bethlehem Steel, tba"
-3/14/2020,Sat,Pensacola,FL,Pine Motel,"Bethlehem Steel, Surrounder, Nascar Noir"
-3/16/2020,Mon,New Orleans,LA,Bank St. Bar,"Treadles, Shell Of A Shell, tba"
+Date,Day,City,State,Venue,With,Link,
+3/11/2020,Wed,Philadelphia,PA,Ortlieb's,"Bethlehem Steel, Grocer, Screamcloud",<a href="https://www.facebook.com/events/883969092062598/" target="_blank">event</a>
+3/12/2020,Thu,Richmond,VA,Crystal Palace,"Bethlehem Steel, Brain Drain, Captain Scrunchie",<a href="https://www.facebook.com/events/2471797299740936/" target="_blank">event</a>
+3/14/2020,Sat,Pensacola,FL,Pine Motel,"Bethlehem Steel, Surrounder, Nascar Noir",<a href="https://www.facebook.com/events/609868029850436/" target="_blank">event</a>
+3/16/2020,Mon,New Orleans,LA,Bank St. Bar,"Shell Of A Shell, Treadles",-
+3/17/2020,Tue,Austin,TX,SXSW,-,-
+3/18/2020,Tue,Austin,TX,SXSW,-,-
+3/19/2020,Tue,Austin,TX,SXSW,-,-
+3/20/2020,Tue,Austin,TX,SXSW,-,-
+3/21/2020,Tue,Austin,TX,Velveeta Room,SXSW: Exploding In Sound Records,<a href="https://www.facebook.com/events/2872363066176006/" target="_blank">event</a>
+3/22/2020,Sun,Denton,TX,Rubber Gloves,"Bethlehem Steel",<a href="https://www.facebook.com/events/729928337828405/" target="_blank">event</a>
+3/23/2020,Mon,Tulsa,OK,Chimera,"Bethlehem Steel",<a href="https://www.facebook.com/events/894856524295012/" target="_blank">event</a>
+3/24/2020,Tue,Columbia,MO,Cafe Berlin,"Bethlehem Steel, Telepathy Club, Static Paisley",<a href="https://www.facebook.com/events/2610315525960294/" target="_blank">event</a>
+3/25/2020,Wed,Columbus,OH,Dirty Dungarees,"Bethlehem Steel",-
+3/26/2020,Thu,Pittsburgh,PA,The Mr. Roboto Project,"Bethlehem Steel, TVs Norm, Cruel Intentions",<a href="https://www.facebook.com/events/163567815081311/" target="_blank">event</a>
+3/27/2020,Fri,Queens,NY,Planet X,"Gorgeous, Maneka, The Fragiles",<a href="https://www.facebook.com/events/1024886687897383/" target="_blank">event</a>
