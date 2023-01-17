@@ -6,12 +6,14 @@ html {
 body {
     font-family: monospace;
     font-size: 2em;
+    background-color: black;
 }
 
 nav {
     position: fixed;
     top: 0;
     left: 0;
+    color:white;
 }
 
 #navlinks {
@@ -20,10 +22,11 @@ nav {
 
 #navlinks a {
     text-decoration: none;
+    color:white;
 }
 
 #navlinks a:hover {
-    color: #8ed4ff;
+    color: #ff7575;
 }
 
 #navlinks>li {
@@ -32,13 +35,13 @@ nav {
 
 #content {
     position: absolute;
-    left: 200px;
+    left: calc(100vw - 800px - 25vw);
 }
 
 .container {
     /* height: 100vh; */
     width: 800px;
-    background-color: khaki;
+    background-color:white ;
     padding-bottom: 25px;
     margin-top: 50px;
 }
@@ -161,7 +164,15 @@ nav {
 }
 
 #shows tr:nth-child(even) {
-    background-color: #fcf4d4;
+    background-color: lightgray;
+}
+
+#shows a {
+    color:#f54848;
+}
+
+#shows a:hover {
+    color:#4ab5f8;
 }
 
 footer {
@@ -171,10 +182,11 @@ footer {
     flex-direction: column;
     align-items: center;
     background-color: transparent !important;
+    color: white;
 }
 
 footer p {
-    border: 1px solid black;
+    border: 1px solid white;
     width: 275px;
     font-size: .4em;
 }
