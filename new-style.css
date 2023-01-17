@@ -46,6 +46,19 @@ nav {
     margin-top: 50px;
 }
 
+#news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#news > div {
+    display: flex;
+    flex-direction: column;
+    width: 648px;
+    font-size: 0.6em;
+}
+
 #info {
     display: flex;
     flex-direction: column;
@@ -174,6 +187,49 @@ nav {
 #shows a:hover {
     color:#4ab5f8;
 }
+
+#shows-future {
+    font-size: 0.5em;
+}
+
+#shows-future div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#shows-future tr:first-of-type {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#shows-future td {
+    text-align: center;
+    padding: 2px;
+}
+
+#shows-future td:nth-of-type(5) {
+    width: 200px;
+}
+
+#shows-future td:nth-of-type(6) {
+    text-align: left;
+    width: 300px;
+}
+
+#shows-future tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+#shows-future a {
+    color:#f54848;
+}
+
+#shows-future a:hover {
+    color:#4ab5f8;
+}
+
+
 
 footer {
     text-align: center;
