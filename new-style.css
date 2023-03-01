@@ -84,6 +84,21 @@ nav {
     padding-left: 0;
 }
 
+#news {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#news>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 0.6em;
+    padding: 20px;
+}
+
 #music {
     display: flex;
     flex-direction: column;
