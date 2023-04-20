@@ -1,240 +1,335 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC|Rubik|Walter+Turncoat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="new-style.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+      integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+    <script src="js/shows.js"></script>
+    <script src="js/slideshow.js"></script>
 
-<head>
-  <meta charset="utf-8" />
-  <!-- Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Rubik|Walter+Turncoat&display=swap" rel="stylesheet" />
-  <!-- Custom CSS -->
-  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-  <link rel="stylesheet" type="text/css" href="new-style.css" />
-  <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
-    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
-    crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
-  <script src="js/shows.js"></script>
-  <script src="js/slideshow.js"></script>
+    <title>Washer</title>
+  </head>
 
-  <title>Washer</title>
-</head>
+  <body>
+    <nav>
+      <ul id="navlinks">
+        <a href="">Washer</a>
+        <li><a href="#info-anchor">info</a></li>
+        <li><a href="#music-anchor">music</a></li>
+        <li><a href="#videos-anchor">videos</a></li>
+        <li><a href="#shows-anchor">shows</a></li>
+      </ul>
+    </nav>
 
-<body>
-  <nav>
-    <ul id="navlinks">
-      <a href="">Washer</a>
-      <li><a href="#info-anchor">info</a></li>
-      <li><a href="#music-anchor">music</a></li>
-      <li><a href="#videos-anchor">videos</a></li>
-      <li><a href="#shows-anchor">shows</a></li>
-    </ul>
-  </nav>
-
-  <div id="content">
-    <div class="anchor">
-      <a name="news-anchor"></a>
-    </div>
-    <section id="news" class="container">
-      <h2>New Album!</h2>
-      <div>
-        <p class="info-content">
-          "Improved Means To Deteriorated Ends" out April 28th via Exploding
-          In Sound Records. Check out videos for the tracks King Insignificant, Not Like You, and Blammo.
-        </p>
-        <div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/SSCRBb9162Y" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        </div>
-        <div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/kBDV0dOERTc" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        </div>
-        <div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/OOgQGwSL0eA" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        </div>
+    <div id="content">
+      <div class="anchor">
+        <a name="news-anchor"></a>
       </div>
-      <p class="info-content">
-        Pre-order links:
-        <a href="https://explodinginsoundrecords.bandcamp.com/album/improved-means-to-deteriorated-ends"
-          target="_blank">Vinyl</a>
-        or
-        <a href="https://okwasher.bandcamp.com/album/improved-means-to-deteriorated-ends"
-          target="_blank">Digital-Only</a>
-      </p>
-    </section>
+      <section id="news" class="container">
+        <h2>New Album!</h2>
+        <div>
+          <p class="info-content">
+            "Improved Means To Deteriorated Ends" out April 28th via Exploding
+            In Sound Records. Check out videos for the tracks King
+            Insignificant, Not Like You, and Blammo.
+          </p>
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/SSCRBb9162Y"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/kBDV0dOERTc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/OOgQGwSL0eA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <p class="info-content">
+          Pre-order links:
+          <a
+            href="https://explodinginsoundrecords.bandcamp.com/album/improved-means-to-deteriorated-ends"
+            target="_blank"
+            >Vinyl</a
+          >
+          or
+          <a
+            href="https://okwasher.bandcamp.com/album/improved-means-to-deteriorated-ends"
+            target="_blank"
+            >Digital-Only</a
+          >
+        </p>
+      </section>
 
-    <div class="anchor">
-      <a name="info-anchor"></a>
-    </div>
-    <section id="info" class="container">
-      <!-- <figure>
+      <div class="anchor">
+        <a name="info-anchor"></a>
+      </div>
+      <section id="info" class="container">
+        <!-- <figure>
         <img src="img/20190517-TheFootlight-16_bw.jpg" alt="washer performing">
         <figcaption>Photo by Michelle LoBianco</figcaption>
       </figure> -->
-      <!-- Slideshow container -->
-      <div class="slideshow-container">
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="img/20190517-TheFootlight-16_bw.jpg" style="width: 100%" />
-          <div class="text">Photo by Michelle LoBianco</div>
-        </div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img
+              src="img/20190517-TheFootlight-16_bw.jpg"
+              style="width: 100%"
+            />
+            <div class="text">Photo by Michelle LoBianco</div>
+          </div>
 
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="img/diner.jpg" style="width: 100%" />
-          <div class="text">Photo by Dana Murphy</div>
-        </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/diner.jpg" style="width: 100%" />
+            <div class="text">Photo by Dana Murphy</div>
+          </div>
 
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="img/good.jpg" style="width: 100%" />
-          <div class="text">Photo by Montana Elliot</div>
-        </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/good.jpg" style="width: 100%" />
+            <div class="text">Photo by Montana Elliot</div>
+          </div>
 
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br />
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
 
-      <!-- The dots/circles -->
-      <div class="dots">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
-      <div>
-        <h2>info</h2>
-        <p class="info-content">
-          Washer is a rock band originally from Brooklyn, NY featuring Mike
-          Quigley on guitar/bass/vocals and Kieran McShane on drums. Since
-          forming in the late months of 2013, the duo have become a staple of
-          the local DIY scene, another hard working band playing countless
-          shows throughout the eastern and central US. They've garnered a
-          strong reputation in that time thanks to the band’s scrappy energy
-          and infectious indie leaning garage punk anthems. Impossibly catchy
-          and deceptively complex, Washer’s songwriting stays with you,
-          burrowing deep into the recesses of your mind as the band aim to “do
-          a lot with a little”. Punk rock minimalism at its finest.
-        </p>
-        <h4>booking, friendship: okwasher @ gmail.com</h4>
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <!-- <section id="links" class="container"> -->
-        <div class="social-media">
-          <a href="https://twitter.com/washerfacts" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"
-              title="Twitter"></i><span class="sr-only">Twitter</span></a>
-          <a href="https://instagram.com/washerfacts" target="_blank"><i class="fab fa-instagram" aria-hidden="true"
-              title="Instagram"></i><span class="sr-only">Instagram></span></a>
-          <a href="https://www.facebook.com/okwasher/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"
-              title="Facebook"></i><span class="sr-only">Facebook></span></a>
-          <a href="https://okwasher.bandcamp.com" target="_blank"><i class="fab fa-bandcamp" aria-hidden="true"
-              title="Bandcamp"></i><span class="sr-only">Bandcamp</span></a>
-          <a href="https://open.spotify.com/artist/1aEtQvTQHlRhK1tslrdxUy" target="_blank"><i class="fab fa-spotify"
-              aria-hidden="true" title="Spotify"></i><span class="sr-only">Spotify</span></a>
-              <a href="https://music.apple.com/us/artist/washer/293334589" target="_blank"><i class="fab fa-apple" aria-hidden="true" title="Apple"></i><span class="sr-only">Apple</span></a>
+        <!-- The dots/circles -->
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
         </div>
-        <!-- </section> -->
-      </div>
-    </section>
-
-    <div class="anchor">
-      <a name="music-anchor"></a>
-    </div>
-    <section id="music" class="container">
-      <h2>music</h2>
-      <div>
-        <div class="album">
-          <iframe
-            src="https://bandcamp.com/EmbeddedPlayer/album=3519884138/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-            seamless><a href="http://okwasher.bandcamp.com/album/bethlehem-steel-washer-split">Bethlehem Steel / Washer
-              Split by Bethlehem Steel &amp;
-              Washer</a></iframe>
-        </div>
-        <div class="album">
-          <iframe
-            src="https://bandcamp.com/EmbeddedPlayer/album=1924994520/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-            seamless><a href="http://okwasher.bandcamp.com/album/all-aboard">All Aboard by Washer</a></iframe>
-        </div>
-        <div class="album">
-          <iframe
-            src="https://bandcamp.com/EmbeddedPlayer/album=2813591046/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-            seamless><a href="http://okwasher.bandcamp.com/album/here-comes-washer">Here Comes Washer by
-              Washer</a></iframe>
-        </div>
-        <div class="album">
-          <iframe
-            src="https://bandcamp.com/EmbeddedPlayer/album=2220999847/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-            seamless><a href="http://okwasher.bandcamp.com/album/flagland-washer-split-7">Flagland/Washer Split 7&quot;
-              by Washer</a></iframe>
-        </div>
-        <div class="album">
-          <iframe
-            src="https://bandcamp.com/EmbeddedPlayer/album=1868233362/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-            seamless><a href="http://okwasher.bandcamp.com/album/big-ups-washer-split-7">Big Ups​/​Washer Split 7&quot;
-              by Washer</a></iframe>
-        </div>
-        <div class="album">
-          <iframe
-            src="https://bandcamp.com/EmbeddedPlayer/album=2780801368/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-            seamless><a href="http://okwasher.bandcamp.com/album/bighead-ep">Bighead EP by Washer</a></iframe>
-        </div>
-        <div class="album">
-          <p>
-            We have merch for sale on
-            <a href="https://okwasher.bandcamp.com/merch" target="_blank">bandcamp</a>
-            and vinyl records through
-            <a href="http://www.explodinginsoundrecords.com/artists/washer" target="_blank">exploding in sound
-              records</a>.
+        <div>
+          <h2>info</h2>
+          <p class="info-content">
+            Washer is a rock band originally from Brooklyn, NY featuring Mike
+            Quigley on guitar/bass/vocals and Kieran McShane on drums. Since
+            forming in the late months of 2013, the duo have become a staple of
+            the local DIY scene, another hard working band playing countless
+            shows throughout the eastern and central US. They've garnered a
+            strong reputation in that time thanks to the band’s scrappy energy
+            and infectious indie leaning garage punk anthems. Impossibly catchy
+            and deceptively complex, Washer’s songwriting stays with you,
+            burrowing deep into the recesses of your mind as the band aim to “do
+            a lot with a little”. Punk rock minimalism at its finest.
           </p>
+          <h4>booking, friendship: okwasher @ gmail.com</h4>
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <!-- <section id="links" class="container"> -->
+          <div class="social-media">
+            <a href="https://twitter.com/washerfacts" target="_blank"
+              ><i
+                class="fab fa-twitter-square"
+                aria-hidden="true"
+                title="Twitter"
+              ></i
+              ><span class="sr-only">Twitter</span></a
+            >
+            <a href="https://instagram.com/washerfacts" target="_blank"
+              ><i
+                class="fab fa-instagram"
+                aria-hidden="true"
+                title="Instagram"
+              ></i
+              ><span class="sr-only">Instagram></span></a
+            >
+            <a href="https://www.facebook.com/okwasher/" target="_blank"
+              ><i
+                class="fab fa-facebook"
+                aria-hidden="true"
+                title="Facebook"
+              ></i
+              ><span class="sr-only">Facebook></span></a
+            >
+            <a href="https://okwasher.bandcamp.com" target="_blank"
+              ><i
+                class="fab fa-bandcamp"
+                aria-hidden="true"
+                title="Bandcamp"
+              ></i
+              ><span class="sr-only">Bandcamp</span></a
+            >
+            <a
+              href="https://open.spotify.com/artist/1aEtQvTQHlRhK1tslrdxUy"
+              target="_blank"
+              ><i class="fab fa-spotify" aria-hidden="true" title="Spotify"></i
+              ><span class="sr-only">Spotify</span></a
+            >
+            <a
+              href="https://music.apple.com/us/artist/washer/293334589"
+              target="_blank"
+              ><i class="fab fa-apple" aria-hidden="true" title="Apple"></i
+              ><span class="sr-only">Apple</span></a
+            >
+          </div>
+          <!-- </section> -->
         </div>
+      </section>
+
+      <div class="anchor">
+        <a name="music-anchor"></a>
       </div>
-    </section>
-    <div class="anchor">
-      <a name="videos-anchor"></a>
+      <section id="music" class="container">
+        <h2>music</h2>
+        <div>
+          <div class="album">
+            <iframe
+              src="https://bandcamp.com/EmbeddedPlayer/album=3519884138/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+              seamless
+              ><a
+                href="http://okwasher.bandcamp.com/album/bethlehem-steel-washer-split"
+                >Bethlehem Steel / Washer Split by Bethlehem Steel &amp;
+                Washer</a
+              ></iframe
+            >
+          </div>
+          <div class="album">
+            <iframe
+              src="https://bandcamp.com/EmbeddedPlayer/album=1924994520/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+              seamless
+              ><a href="http://okwasher.bandcamp.com/album/all-aboard"
+                >All Aboard by Washer</a
+              ></iframe
+            >
+          </div>
+          <div class="album">
+            <iframe
+              src="https://bandcamp.com/EmbeddedPlayer/album=2813591046/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+              seamless
+              ><a href="http://okwasher.bandcamp.com/album/here-comes-washer"
+                >Here Comes Washer by Washer</a
+              ></iframe
+            >
+          </div>
+          <div class="album">
+            <iframe
+              src="https://bandcamp.com/EmbeddedPlayer/album=2220999847/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+              seamless
+              ><a
+                href="http://okwasher.bandcamp.com/album/flagland-washer-split-7"
+                >Flagland/Washer Split 7&quot; by Washer</a
+              ></iframe
+            >
+          </div>
+          <div class="album">
+            <iframe
+              src="https://bandcamp.com/EmbeddedPlayer/album=1868233362/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+              seamless
+              ><a
+                href="http://okwasher.bandcamp.com/album/big-ups-washer-split-7"
+                >Big Ups​/​Washer Split 7&quot; by Washer</a
+              ></iframe
+            >
+          </div>
+          <div class="album">
+            <iframe
+              src="https://bandcamp.com/EmbeddedPlayer/album=2780801368/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+              seamless
+              ><a href="http://okwasher.bandcamp.com/album/bighead-ep"
+                >Bighead EP by Washer</a
+              ></iframe
+            >
+          </div>
+          <div class="album">
+            <p>
+              We have merch for sale on
+              <a href="https://okwasher.bandcamp.com/merch" target="_blank"
+                >bandcamp</a
+              >
+              and vinyl records through
+              <a
+                href="http://www.explodinginsoundrecords.com/artists/washer"
+                target="_blank"
+                >exploding in sound records</a
+              >.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="anchor">
+        <a name="videos-anchor"></a>
+      </div>
+      <section id="videos" class="container">
+        <h2>videos</h2>
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/videoseries?list=PLLvNpQhg7WLdTk6GzWqGIdzx3N4uaNbrb"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <div class="anchor">
+        <a name="shows-anchor"></a>
+      </div>
+      <section id="shows">
+        <!-- <h2>shows</h2> -->
+        <div>
+          <div id="shows-upcoming" class="container">
+            <h3>:: Upcoming Shows ::</h3>
+          </div>
+          <div id="shows-past" class="container">
+            <h3>:: Archive ::</h3>
+          </div>
+        </div>
+      </section>
+
+      <footer class="container">
+        <p>Site by Quigley // Copyright 2023 by Washer</p>
+      </footer>
     </div>
-    <section id="videos" class="container">
-      <h2>videos</h2>
-      <div>
-        <iframe width="700" height="394" src="https://www.youtube.com/embed/Bw-Y2-ESJ9A" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="700" height="394" src="https://www.youtube.com/embed/BcN5zFMda80" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </section>
-
-    <div class="anchor">
-      <a name="shows-anchor"></a>
-    </div>
-    <section id="shows">
-      <!-- <h2>shows</h2> -->
-      <div>
-        <div id="shows-upcoming" class="container">
-          <h3>:: Upcoming Shows ::</h3>
-        </div>
-        <div id="shows-past" class="container">
-          <h3>:: Archive ::</h3>
-        </div>
-      </div>
-    </section>
-
-    <footer class="container">
-      <p>Site by Quigley // Copyright 2020 by Washer</p>
-    </footer>
-  </div>
-  <script>
-    window.onload = () => {
-      currentSlide(10);
-    };
-  </script>
-</body>
-
+    <script>
+      window.onload = () => {
+        currentSlide(10);
+      };
+    </script>
+  </body>
 </html>
