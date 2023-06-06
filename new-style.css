@@ -49,6 +49,10 @@ nav {
     align-items: center;
 }
 
+.info-content {
+    width: 75%;
+}
+
 /* #info img {
     width: 700px;
     height: auto;
@@ -97,6 +101,10 @@ nav {
     justify-content: center;
     font-size: 0.6em;
     padding: 20px;
+}
+
+#news li {
+    text-align: left;
 }
 
 #music {
