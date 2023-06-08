@@ -154,36 +154,36 @@ nav {
     margin: 20px 30px 30px 30px;
 }
 
-#shows {
+.shows {
     font-size: 0.5em;
 }
 
-#shows div {
+.shows div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#shows tr:first-of-type {
+.shows tr:first-of-type {
     font-weight: bolder;
     text-decoration: underline;
 }
 
-#shows td {
+.shows td {
     text-align: center;
     padding: 2px;
 }
 
-#shows td:nth-of-type(5) {
+.shows td:nth-of-type(5) {
     width: 200px;
 }
 
-#shows td:nth-of-type(6) {
+.shows td:nth-of-type(6) {
     text-align: left;
     width: 300px;
 }
 
-#shows tr:nth-child(even) {
+.shows tr:nth-child(even) {
     background-color: #fcf4d4;
 }
 
@@ -400,15 +400,15 @@ footer p {
         font-size: 2em;
     }
 
-    #shows {
+    .shows {
         font-size: 1em;
     }
 
-    #shows td:nth-of-type(5) {
+    .shows td:nth-of-type(5) {
         width: initial;
     }
 
-    #shows td:nth-of-type(6) {
+    .shows td:nth-of-type(6) {
         text-align: left;
         width: initial;
     }
