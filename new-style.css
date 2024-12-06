@@ -195,13 +195,47 @@ nav {
     padding: 2px;
 }
 
-.shows td:nth-of-type(5) {
-    width: 200px;
+#shows table {
+    width: 98%;
 }
+
+#shows td {
+    text-align: center;
+    padding: 16px 8px;
+}
+#shows td:nth-of-type(5) {
+    width: auto;
+}
+
+#shows td:nth-of-type(6) {
+    text-align: left;
+    width: auto;
+}
+
+#shows td:nth-of-type(7) {
+    width: 100px;
+}
+
+#shows td:nth-of-type(7) a {
+    font-size: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: rgba(1, 102, 160);
+    text-decoration: none;
+}
+
+#shows tr:nth-child(even) a{
+    color: rgb(86, 131, 157);
+}
+
 
 .shows td:nth-of-type(6) {
     text-align: left;
     width: 300px;
+ 
+}
+.shows td:nth-of-type(5) {
+    width: 200px;
 }
 
 .shows tr:nth-child(even) {
