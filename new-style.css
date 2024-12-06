@@ -171,6 +171,7 @@ nav {
 }
 .videoframe {
     margin: 20px 30px 30px 30px;
+    height: 394px;
     flex-grow: 1;
 }
 
