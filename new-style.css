@@ -14,6 +14,10 @@ nav {
     left: 0;
 }
 
+#mobileHeader {
+    display: none;
+}
+
 #navlinks {
     list-style: square;
 }
@@ -50,6 +54,10 @@ nav {
 }
 
 .info-content {
+    width: auto;
+}
+
+.news-content {
     width: 75%;
 }
 
@@ -159,6 +167,8 @@ nav {
 
 #videos iframe {
     margin: 20px 30px 30px 30px;
+    height: 90%;
+    width: auto;
 }
 
 .shows {
@@ -326,7 +336,11 @@ footer p {
     }
 }
 
+/* MOBILE */
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+    html {
+        scroll-padding-top: 255px;
+    }
     nav {
         position: fixed;
         z-index: 1;
@@ -334,32 +348,55 @@ footer p {
         left: 0;
         font-size: 1.5em;
         background-color: white;
-        height: 120px;
+        height: 254;
     }
 
     #navlinks {
+        display: none;
+    }
+
+    #mobileHeader {
+        display: block;
+        border: 1px solid blue;
+        width: 98vw;
+        text-align: center;
+        /* background-color: #ff7575; */
+        padding: 40px 50px 20px 50px;
+        margin: 8px;
+    }
+
+    #mobileHeader a {
+        text-decoration: none;
+    }
+    .mobileMenu {
         display: flex;
         flex-direction: row;
+        justify-content:space-between;
+        list-style-type: none;
     }
-
-    #navlinks>li {
-        padding-right: 1em;
-    }
-
-    #navlinks>li:first-of-type {
-        margin-left: 2em;
+    .mobileMenu a {
+        text-decoration: none;
     }
 
     #content {
         left: initial;
         display: absolute;
-        top: 60px;
+        top: 255px;
     }
 
     .container {
         width: 98vw;
         margin-top: 75px;
 
+    }
+
+    .news-pic {
+        width: 90%;
+    }
+
+    .news-content {
+        font-size: 2em;
+        width: 90%;
     }
 
     .anchor {
@@ -391,10 +428,17 @@ footer p {
         width: 80vw;
     }
 
-    .social-media>a {
-        font-size: 4em;
-        padding-right: 0.5em;
+    .info-content {
+        font-size: 1em;
+        width:auto;
+    }
 
+    .social-media {
+        flex-wrap: wrap;
+    }
+    .social-media>a {
+        font-size: 2em;
+        padding-right: 0.5em;
     }
 
     .album iframe {
@@ -407,17 +451,34 @@ footer p {
         font-size: 2em;
     }
 
-    .shows {
+    #shows {
         font-size: 1em;
     }
 
-    .shows td:nth-of-type(5) {
-        width: initial;
+    #shows h3 {
+        text-align: center;
     }
 
-    .shows td:nth-of-type(6) {
+    #shows td {
+        text-wrap: wrap;
+        width: auto;
+        padding: 10px 20px;
+    }
+
+    #shows>td:nth-of-type(6) {
         text-align: left;
-        width: initial;
+    }
+
+    /* #videos iframe {
+        height: 90%;
+        width: auto;
+    } */
+
+    #archive {
+        font-size: 0.8em;
+    }
+    #archive h3 {
+        text-align: center;
     }
 
     footer p {
