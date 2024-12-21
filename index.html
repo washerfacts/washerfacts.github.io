@@ -27,24 +27,26 @@
     <nav>
       <ul id="navlinks">
         <a href="">Washer</a>
-        <li><a href="#news">news</a></li>
+        <li><a href="#news">updates</a></li>
         <li><a href="#shows">shows</a></li>
         <li><a href="#info">info</a></li>
         <li><a href="#music">music</a></li>
         <li><a href="#videos">videos</a></li>
         <li><a href="#archive">archive</a></li>
+        <li><a href="https://news.washerfacts.com">newsletter</a></li>
       </ul>
       <div id="mobileHeader">
         <a href="">WASHER</a>
         <ul class="mobileMenu">
-          <li><a href="#news">news</a></li>
+          <li><a href="#news">updates</a></li>
           <li><a href="#shows">shows</a></li>
           <li><a href="#info">info</a></li>
+          <li><a href="#music">music</a></li>
         </ul>
         <ul class="mobileMenu">
-          <li><a href="#music">music</a></li>
           <li><a href="#videos">videos</a></li>
           <li><a href="#archive">archive</a></li>
+          <li><a href="https://news.washerfacts.com">newsletter</a></li>
         </ul>
       </div>
     </nav>
@@ -68,7 +70,7 @@
             Touring the West Coast in March 2025 with Ovlov!
           </p>
           <p class="news-content">
-            New music in 2024:
+            New music:
             <a
               href="https://www.youtube.com/watch?v=9T1gRf4JxZk"
               target="_blank"
@@ -78,9 +80,9 @@
             <a
               href="https://youtu.be/j_bJTU8DShc?si=X4EtsEv_M1_BHGhk"
               target="_blank"
-              >Come Back As A Bug.</a
+              >Come Back As A Bug</a
             >
-            Order the
+            <br />Order the
             <a
               href="https://okwasher.bandcamp.com/album/come-back-as-a-bug"
               target="_blank"
@@ -400,7 +402,13 @@
       </section>
 
       <footer class="container">
-        <p>Site by Quigley // Copyright 2024 by Washer</p>
+        <p>
+          Site by Quigley // Copyright
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          by Washer
+        </p>
       </footer>
     </div>
     <script>
